@@ -2,38 +2,52 @@ package com.ekub.app.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Primary Colors - Blue
-val PrimaryBlue = Color(0xFF1976D2)
-val PrimaryBlueDark = Color(0xFF1565C0)
-val PrimaryBlueLight = Color(0xFF42A5F5)
+// Primary Colors
+val PrimaryBlue = Color(0xFF1E3A8A)
+val PrimaryBlueDark = Color(0xFF0F172A)
+val PrimaryBlueLarge = Color(0xFF3B82F6)
 
-// Secondary Colors - Green
-val SecondaryGreen = Color(0xFF4CAF50)
-val SecondaryGreenDark = Color(0xFF388E3C)
-val SecondaryGreenLight = Color(0xFF81C784)
-
-// Tertiary Colors - White
-val TertiaryWhite = Color(0xFFFFFFFF)
-val BackgroundWhite = Color(0xFFF5F5F5)
-val SurfaceWhite = Color(0xFFFAFAFA)
+// Secondary Colors
+val SecondaryGreen = Color(0xFF10B981)
+val SecondaryGreenDark = Color(0xFF059669)
+val SecondaryGreenLight = Color(0xFFD1FAE5)
 
 // Accent Colors
-val AccentBlue = Color(0xFF64B5F6)
-val AccentGreen = Color(0xFF66BB6A)
-val AccentLightBlue = Color(0xFFBBDEFB)
-val AccentLightGreen = Color(0xFFA5D6A7)
+val AccentOrange = Color(0xFFF97316)
+val AccentRed = Color(0xFFEF4444)
+val AccentYellow = Color(0xFFFCD34D)
+val AccentLightBlue = Color(0xFFBFDBFE)
+
+// Background Colors
+val BackgroundWhite = Color(0xFFFFFFFF)
+val BackgroundLight = Color(0xFFF8FAFC)
+val BackgroundGray = Color(0xFFF3F4F6)
+
+// Surface Colors
+val SurfaceWhite = Color(0xFFFAFBFC)
+val SurfaceGray = Color(0xFFF1F5F9)
+val SurfaceDark = Color(0xFF1F2937)
 
 // Text Colors
-val TextDark = Color(0xFF212121)
-val TextMedium = Color(0xFF616161)
-val TextLight = Color(0xFF9E9E9E)
+val TextDark = Color(0xFF1F2937)
+val TextMedium = Color(0xFF6B7280)
+val TextLight = Color(0xFF9CA3AF)
+val TextExtraLight = Color(0xFFD1D5DB)
+
+// Border Colors
+val BorderColor = Color(0xFFE5E7EB)
+val BorderLight = Color(0xFFF3F4F6)
+val BorderDark = Color(0xFF4B5563)
 
 // Status Colors
-val SuccessGreen = Color(0xFF4CAF50)
-val WarningOrange = Color(0xFFFFA726)
-val ErrorRed = Color(0xFFEF5350)
-val InfoBlue = Color(0xFF29B6F6)
+val StatusSuccess = Color(0xFF22C55E)
+val StatusWarning = Color(0xFFEAB308)
+val StatusError = Color(0xFFEF4444)
+val StatusInfo = Color(0xFF0EA5E9)
 
-// Border & Divider Colors
-val BorderColor = Color(0xFFE0E0E0)
-val DividerColor = Color(0xFFBDBDBD)
+// Transparent Colors
+val BlackTransparent10 = Color(0x1A000000)
+val BlackTransparent20 = Color(0x33000000)
+val BlackTransparent30 = Color(0x4D000000)
+val WhiteTransparent10 = Color(0x1AFFFFFF)
+val WhiteTransparent20 = Color(0x33FFFFFF)

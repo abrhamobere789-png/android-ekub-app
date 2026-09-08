@@ -7,6 +7,5 @@ import dagger.hilt.android.HiltAndroidApp
 class EkubApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        // Initialize app-level configurations
     }
 }
